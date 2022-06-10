@@ -465,7 +465,7 @@ section .title::after{
     font-size: 25px;
     color: crimson;
 }
-.contact .contact-content .info .head{
+.contact .contact-content .info .contact-head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
@@ -529,6 +529,10 @@ section .title::after{
 .right form .button-area button:hover{
   color: crimson;
   background: none;
+}
+
+.contact-head {
+    color: #000;
 }
 /* footer section styling */
 footer{
