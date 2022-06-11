@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["React Developer", "Front End Developer"],
+        strings: ["React Js Developer"," "],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
