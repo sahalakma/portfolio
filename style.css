@@ -36,11 +36,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .projects, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
+.projects .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -231,12 +231,12 @@ section .title::after{
 .about .about-content .right{
     width: 55%;
 }
-.about .about-content .right .text{
+.about .about-content .right .text-about{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.about .about-content .right .text span{
+.about .about-content .right .text-about span{
     color: rgb(0, 14, 119);
 }
 .about .about-content .right p{
@@ -269,21 +269,21 @@ section .title::after{
     transition: 3s;
 }
 
-/* services section styling */
-.services, .teams{
+/* projects section styling */
+.projects, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before,
+.projects .title::before,
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
+.projects .title::after,
 .teams .title::after{
     background: #111;
     content: "";
 }
-.services .serv-content .card{
+.projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -303,24 +303,24 @@ section .title::after{
 }
 
 
-.services .serv-content .card:hover{
+.projects .serv-content .card:hover{
     background: rgb(0, 14, 119);
 }
-.services .serv-content .card .box{
+.projects .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.projects .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.projects .serv-content .card i{
     font-size: 50px;
     color: rgb(0, 14, 119);
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.projects .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.projects .serv-content .card .text-projects{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -510,6 +510,9 @@ section .title::after{
     transition: background-color 0.6s ease;
   }
   
+  /* .active, .dot:hover {
+    background-color: #ffffff;
+  } */
   
   /* Fading animation */
   .fade {
@@ -703,7 +706,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -727,7 +730,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width: 100%;
     }
 }
