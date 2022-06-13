@@ -72,7 +72,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: rgb(0, 14, 119);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -102,7 +102,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(0, 14, 119);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -552,7 +552,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(0, 14, 119);
 }
 .contact .contact-content .info .contact-head{
     font-weight: 500;
@@ -611,12 +611,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: rgb(0, 14, 119);
+  border: 2px solid rgb(0, 14, 119);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: rgb(0, 14, 119);
   background: none;
 }
 
@@ -631,7 +631,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: rgb(0, 14, 119);
     text-decoration: none;
 }
 footer span a:hover{
